@@ -83,3 +83,37 @@ const expensiveItems = cart.filter((items) => {
 })
 
 console.log(expensiveItems)
+
+let numbers = [10, 20, 30, 40, 100, 60];
+
+const sum = numbers.reduce((acc, curr) => {
+return acc + curr
+}, 0)
+
+
+
+let listOfNumbers = [5, 12, 7, 30, 18];
+
+let max = listOfNumbers.reduce((acc, curr) => {
+  return curr > acc ? curr : acc
+}, 0)
+
+console.log(max)
+
+ //find
+findIndex
+some
+every
+ 
+When the form is submitted:
+ 1. Convert the list of names into an array.
+ 2. Use find to check if the student exists.
+ 3. Use findIndex to get their position in the array.
+ 4. If the student exists, display a message like:
+“Student John found at position 2.”
+ 5. If the student doesn’t exist, display “Student not found.” after 2 seconds (using setTimeout).
+  `;
+
+ 
+
+ 
